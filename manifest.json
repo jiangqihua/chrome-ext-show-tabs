@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "chrome-ext-show-tabs",
+  "description": "This extension shows all tabs URLs",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "tabs.html",
+    "default_title": "click to get all tabs URLs"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "https://ajax.googleapis.com/"
+  ]
+}
